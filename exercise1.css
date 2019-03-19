@@ -1,5 +1,30 @@
 h1{
   color:red;
+  font size: 300px;
+}
+h2{
+    color:red;
+  font size:20px;
+
 }
 
+body {
+    text-align: center;
+    padding-top: 260px;
+    color: black;
+    font-family: helvetica;
+    background: url("file:///C:/Users/Home/Documents/GitHub/OurWebsite/cocktail.jpg");
+    background-size: cover;
+    font size: 100px;
+  }
+header{
+    text-align:center;
+  }
+ul{padding: 10px;
+  padding: 0px 10px 0px 10px;
+}
+li{ color:red;
+      display:inline;
+    }
+a{color:white;
 }

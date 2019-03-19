@@ -1,0 +1,109 @@
+ul{padding: 10px;
+  padding: 0px 10px 0px 10px;
+}
+li{
+      display:inline;
+    }
+
+
+h2{text-align: center;
+color:red;
+}
+p{text-align: left;
+font-weight:bolder;}
+
+header{
+          text-align:center;
+          font-family:monospace;
+          color:black;
+          font size:200px;
+        }
+  div{
+          height: 170px;
+          background-size:cover;
+          position:relative;
+          margin:40px 0 0 0;
+          border-radius:12px;}
+
+input[type="drink"] {
+              background: pink;
+              color: black;
+              text-indent: 20px;
+            }
+input[type="drink2"] {
+                          background: pink;
+                          color: black;
+                          text-indent: 10px;
+                        }
+input[type="drink2"] {
+                        background: pink;
+                        color: black;
+                      text-indent: 10px;
+                                                }
+input[type="drink3"] {
+                      background: pink;
+                      color: black;
+                      text-indent: 10px;
+                    }
+input[type="drink4"]{
+  background: pink;
+  color: black;
+  text-indent: 10px;
+  }
+
+.btn-group button{
+  padding-right: 10px;
+  padding-left:10px;
+  text-align: center;
+  display: inline-block;
+  color:black;
+  background-color: pink;
+  display:block;
+  margin: 0 auto;
+  font-size: 15px;
+border-radius: 8px;
+box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+cursor:pointer;
+}
+
+div{
+  height: 300px;
+  background-size:cover;
+  position:relative;
+  margin:40px 0 0 0;
+  border-radius:12px;
+}
+.ingredients{
+  background: url("file:///C:/Users/Home/Documents/GitHub/OurWebsite/Ingredient1.png");
+  background-size:cover;
+   position:relative;
+  font-family:helvetica;
+  font size: 100px;
+  border-width: thick;
+}
+.taste{
+  background: url("file:///C:/Users/Home/Documents/GitHub/OurWebsite/taste1.jpg");
+  background-size:cover;
+  position:relative;
+  font-family:helvetica;
+  font size: 100px;
+  border-width: thick;
+}
+
+.allergy{
+  background: url("file:///C:/Users/Home/Documents/GitHub/OurWebsite/cheers4.png");
+  background-size:cover;
+  position:relative;
+  font-family:helvetica;
+  font size: 100px;
+  border-width: thick;
+}
+#generate {
+
+  font-size: 60px;
+  cursor:alias;
+  display:block;
+  margin: 0 auto;
+  margin-top: 10px;
+  border-radius: 10px;
+}

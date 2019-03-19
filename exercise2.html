@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Find a Recipe</title>
+        <link rel="stylesheet" type="text/css" href="exercise2.css">
+
+    </head>
+    <body>
+      <header>Take a Look in Your Cupboard</header>
+
+      <div class="ingredients">
+        <h1><u>Insert your Ingredients</u><h1>
+        <h2> What would you like in your cocktail?<h2>
+
+      <ul>
+        <li><input type="drink" placeholder="Drink of Choice"></li>
+        <li><input type="drink2" placeholder="Additional Ingredient"></li>
+        <li><input type="drink3" placeholder="Additional Ingredient"></li>
+        <li><input type="drink4" placeholder="Additional Ingredient"></li>
+        <ul>
+</div>
+
+<div class="taste">
+  <h1><u>Taste Preference</u></h1>
+  <h2>Please select the icons that match your favourite taste (p.s Be Adventurous!)</h2>
+
+<div class="btn-group">
+    <button>Sweet</button>
+    <button>Sour</button>
+    <button>Dry</button>
+    <button>Fizzy</button>
+    <button>Fruity</button>
+
+    </div>
+</div>
+
+<p>Nearly there...</p>
+
+<div class="allergy">
+  <h1><u>Allergies</u></h1>
+  <h2>Do you have any allergies?</h2>
+  <p>Please select from the drop down, or leave blank </p>
+
+
+          <div>
+               <label>Select Allergy</label>
+               <select class = "myList">
+                 <option value = "1">Multiple Nuts</option>
+                 <option value = "1">Dairy</option>
+                 <option value = "1">Gluten</option>
+                 <option value = "1">Celiac</option>
+                 <option value = "1">Peanuts</option>
+                 <option value = "1">Shellfish</option>
+               </select>
+          </div>
+</div>
+
+  <input type="submit" id="generate" value="Create Me A Cocktail">
+
+ <script>$("button").on("click",function() {alert("clicked!") })</script>
+</body>
+</html>
