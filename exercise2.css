@@ -73,7 +73,7 @@ div{
   border-radius:12px;
 }
 .ingredients{
-  background: url("file:///C:/Users/Home/Documents/GitHub/OurWebsite/Ingredient1.png");
+  background: url("file:///C:/Users/Home/Documents/GitHub/OurWebsite/shotglass1.jpg");
   background-size:cover;
    position:relative;
   font-family:helvetica;
@@ -97,11 +97,12 @@ div{
   font size: 100px;
   border-width: thick;
 }
-#generate {
+.generate button{
 
-  font-size: 60px;
-  cursor:alias;
+  font-size: 40px;
+  cursor:pointer;
   display:block;
+  text-shadow: 2px 2px 5px ;
   margin: 0 auto;
   margin-top: 10px;
   border-radius: 10px;
