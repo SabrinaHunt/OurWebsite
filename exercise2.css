@@ -12,12 +12,11 @@ color:red;
 p{text-align: left;
 font-weight:bolder;}
 
-header{
-          text-align:center;
-          font-family:monospace;
-          color:black;
-          font size:200px;
-        }
+
+header li{
+            text-align:center;
+          display: inline;
+        line-style:none; }
   div{
           height: 170px;
           background-size:cover;
