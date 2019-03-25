@@ -73,7 +73,7 @@ div{
   border-radius:12px;
 }
 .ingredients{
-  background: url("file:///C:/Users/Home/Documents/GitHub/OurWebsite/shotglass1.jpg");
+  background: url("./shotglass1.jpg");
   background-size:cover;
    position:relative;
   font-family:helvetica;
@@ -81,7 +81,7 @@ div{
   border-width: thick;
 }
 .taste{
-  background: url("file:///C:/Users/Home/Documents/GitHub/OurWebsite/taste1.jpg");
+  background: url("./taste1.jpg");
   background-size:cover;
   position:relative;
   font-family:helvetica;
@@ -90,7 +90,7 @@ div{
 }
 
 .allergy{
-  background: url("file:///C:/Users/Home/Documents/GitHub/OurWebsite/cheers4.png");
+  background: url("./cheers4.png");
   background-size:cover;
   position:relative;
   font-family:helvetica;
