@@ -8,13 +8,6 @@ h2{
 
 }
 
-h3{
-
-  color:white;
-  font size: 15px;
-
-}
-
 body {
     text-align: center;
     padding-top: 250px;
@@ -35,24 +28,3 @@ li{ color:red;
     }
 a{color:white;
 }
-
-  #social-buttons button {
-  color: white
-  }
-
-  .btn-twitter {
-  background: #00acee;
-  border-color: #009ad5;
-  }
-  .btn-facebook {
-  background: #4868ac;
-  border-color: #314776;
-  }
-  .btn-pinterest {
-  background: #b62f26;
-  border-color: #b62f26;
-  }
-  .btn-snapchat {
-    background:yellow;
-    border-color:yellow;
-  }
