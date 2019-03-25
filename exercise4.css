@@ -1,0 +1,8 @@
+header li{
+            text-align:center;
+          display: inline;
+        line-style:none; }
+body{
+  text-align: center;}
+input[type="firstname"]{
+  color:red;}
