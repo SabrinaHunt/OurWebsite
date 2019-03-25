@@ -8,13 +8,6 @@ h2{
 
 }
 
-h3{
-
-  color:white;
-  font size: 15px;
-
-}
-
 body {
     text-align: center;
     padding-top: 250px;
@@ -22,6 +15,7 @@ body {
     font-family: helvetica;
     background: url("cocktail.jpg");
     background-size: cover;
+    background-repeat: no-repeat;
     font size: 100px;
   }
 header{
@@ -35,6 +29,8 @@ li{ color:red;
     }
 a{color:white;
 }
+<<<<<<< HEAD
+=======
 
   #social-buttons button {
   color: white
@@ -54,5 +50,5 @@ a{color:white;
   }
   .btn-snapchat {
     background:#FFD700;
-    border-color:yellow;
+    border-color:#FFD700;
   }
