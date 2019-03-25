@@ -9,8 +9,16 @@ h2{
   font-family: 'Londrina Shadow', cursive;
   text-align: center;
   color:#aaaaaa;
-  font size:20px;
+  font size:40px;
 }
+h3{
+  font-family: 'Londrina Shadow', cursive;
+  text-align: center;
+  color:#aaaaaa;
+  font size:20px;
+
+}
+
 
 body {
     text-align: center;
