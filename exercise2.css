@@ -1,5 +1,5 @@
 body {
-  background:#5c554d;
+  background:#E19889;
 }
 
 ul {
@@ -7,114 +7,119 @@ ul {
   padding: 0px 10px 0px 10px;
 }
 li {
-      display:inline;
-    }
+  display:inline;
+}
 
 h1 {
-  color: #ffff;
-  font-family: Josefin Sans, sans-serif;
+  color: #F6F1F0;
+  font-family: "Josefin Sans", sans-serif;
   text-align: center;
 }
 h2 {
-  font-family: Roboto, sans;
+  font-family: "Josefin Sans", sans-serif;
   text-align: center;
-color:red;
+  color:#E19889;
+  margin-top: 20px;
 }
 p {
-  text-align: left;
-font-weight:bolder;
+  text-align: center;
+  font-weight:bolder;
+  color: #F6F1F0;
+  font-family:"Roboto";
+
 }
 
 
 header li {
-      font-family: Josefin Sans, Sans-serif;
-            text-align:center;
-          display: inline;
-        line-style:none;
-      }
-  div {
-          height: 170px;
-          background-size:cover;
-          position:relative;
-          margin:40px 0 0 0;
-          border-radius:12px;
-        }
+  font-family: "Josefin Sans", Sans-serif;
+  text-align:center;
+  display: inline;
+  line-style:none;
+}
+
 
 input[type="drink"] {
-              background: pink;
-              color: black;
-              text-indent: 20px;
-            }
+  background: #F6F1F0;
+  border-radius: 8px;
+  color: black;
+  text-indent: 20px;
+}
 input[type="drink2"] {
-                          background: pink;
-                          color: black;
-                          text-indent: 10px;
-                        }
-input[type="drink2"] {
-                        background: pink;
-                        color: black;
-                      text-indent: 10px;
-                                                }
+  background: #F6F1F0;
+  border-radius: 8px;
+  color: black;
+  text-indent: 10px;
+}
 input[type="drink3"] {
-                      background: pink;
-                      color: black;
-                      text-indent: 10px;
-                    }
-input[type="drink4"]{
-  background: pink;
+  background: #F6F1F0;
+  border-radius: 8px;
+  color: black;
+  text-indent: 10px;
+}
+input[type="drink4"] {
+  background: #F6F1F0;
+  border-radius: 8px;
   color: black;
   text-indent: 10px;
   }
 
-.btn-group button{
-  padding-right: 10px;
-  padding-left:10px;
-  text-align: center;
-  display: inline-block;
-  color:black;
-  background-color: pink;
-  display:block;
-  margin: 0 auto;
-  font-size: 15px;
-border-radius: 8px;
-box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
-cursor:pointer;
+.btn-group button {
+   padding-right: 10px;
+   padding-left:10px;
+   padding-bottom: 10px;
+   padding-top: 10px
+   text-align: center;
+   display: inline-block;
+   color:black;
+   background-color: #F6F1F0;
+   display:block;
+   margin: 0 auto 5px auto;
+   font-size: 15px;
+   border-radius: 8px;
+   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+   cursor:pointer;
 }
 
-div{
+.background-image {
   height: 300px;
   background-size:cover;
   position:relative;
-  margin:40px 0 0 0;
+  margin:40px 20px 20px 40px;
   border-radius:12px;
 }
-.ingredients{
-  background: url("./images/shotglass1.jpg");
-  background-size:cover;
-   position:relative;
-  font-family:helvetica;
-  font size: 100px;
-  border-width: thick;
+#unite {
+  background: url("./images/non-alcoholic.jpg");
+  padding-top: 20px;
+  border-radius: 8px;
 }
-.taste{
-  background: url("./images/taste1.jpg");
+
+.ingredients {
   background-size:cover;
   position:relative;
-  font-family:helvetica;
-  font size: 100px;
+  font-family: "Roboto";
+  color: #F6F1F0;
+  border-width: thick;
+  text-align: center;
+}
+.taste {
+  background-size:cover;
+  position:relative;
+  font-family:"Roboto";
+
   border-width: thick;
 }
 
-.allergy{
-  background: url("./images/cheers4.png");
+.allergy {
   background-size:cover;
-  position:relative;
-  font-family:helvetica;
-  font size: 100px;
   border-width: thick;
-}
-.generate button{
+  color: #ffff;
+  font-family:"Roboto";
 
+  position: relative;
+  text-align: center;
+}
+.generate button {
+  font-family: "Roboto";
   font-size: 40px;
   cursor:pointer;
   display:block;
@@ -122,4 +127,10 @@ div{
   margin: 0 auto;
   margin-top: 10px;
   border-radius: 10px;
+}
+.nearly{
+  font-size: 28px;
+  text-align: left;
+  padding-left: 20px;
+
 }

@@ -14,24 +14,24 @@
           <li><a href="exercise4.html">Contact Us</a></li>
         </ul>
       </header>
-        <h1>Take a Look in Your Cupboard</h1>
+        <h1>Take a Look in Your Cupboard!</h1>
 
-
-      <div class="ingredients">
-        <h1><u>Insert Ingredients</u><h1>
-        <h2> What would you like in your cocktail?<h2>
+<div id="unite">
+      <div class="ingredients background-image">
+        <h1><u>What did you find - Shall we mix a drink?</u></h1>
+        <h2>Insert Ingredients</h2>
 
       <ul>
         <li><input type="drink" placeholder="Drink of Choice"></li>
         <li><input type="drink2" placeholder="Additional Ingredient"></li>
         <li><input type="drink3" placeholder="Additional Ingredient"></li>
         <li><input type="drink4" placeholder="Additional Ingredient"></li>
-        <ul>
+      </ul>
 </div>
 
-<div class="taste">
+<div class="taste background-image">
   <h1><u>Taste Preference</u></h1>
-  <h2>Please select the icons that match your favourite taste (p.s Be Adventurous!)</h2>
+  <h2>Select flavours to match your taste (Be adventurous!)</h2>
 
 <div class="btn-group">
     <button>Sweet</button>
@@ -43,28 +43,36 @@
     </div>
 </div>
 
-<p>Nearly there...</p>
+<p class= "nearly">Nearly there...</p>
 
-<div class="allergy">
+<div class="allergy background-image">
   <h1><u>Allergies</u></h1>
   <h2>Do you have any allergies?</h2>
   <p>Please select from the drop down, or leave blank </p>
 
 
-          <div>
-               <label>Select Allergy</label>
-               <select class = "myList">
+  <div>
+  <select class = "myList">
+                 <option value = "1">Blank</option>
                  <option value = "1">Multiple Nuts</option>
+                 <option value = "1">Peanut</option>
+                 <option value = "1">Hazelnut</option>
+                 <option value = "1">Almond</option>
                  <option value = "1">Dairy</option>
                  <option value = "1">Gluten</option>
-                 <option value = "1">Celiac</option>
-                 <option value = "1">Peanuts</option>
+                 <option value = "1">Egg</option>
                  <option value = "1">Shellfish</option>
+                 <option value = "1">Citrus fruits</option>
+                 <option value = "1">Strawberry</option>
+                 <option value = "1">Apple</option>
+                 <option value = "1">Celiac</option>
+                 <option value = "1">Vegan</option>
                </select>
           </div>
+        </div>
 </div>
 <div class="generate">
-  <button> Create Me A Cocktail!!!</button>
+  <button> Create A Cocktail!</button>
 </div>
 
  <script>$("button").on("click",function() {alert("clicked!") })</script>
