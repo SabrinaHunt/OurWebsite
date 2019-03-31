@@ -6,7 +6,9 @@ li{
     }
 
 
-h2{text-align: center;
+h2{
+  font-family: Josefin, sans;
+  text-align: center;
 color:red;
 }
 p{text-align: left;
