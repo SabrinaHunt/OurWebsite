@@ -1,17 +1,28 @@
-div{border-bottom: 5px solid black;}
+div {
+  border-bottom: 5px solid black;
+}
 
-body{background-color: rgb(219,112,147);}
+body {
+  background:#E19889;
+}
 
-h1{text-align: center;}
+h1 {
+  text-align: center;
+  font-family: "Josefin Sans", sans-serif;
+  padding-bottom: 40px;
+}
+ul {
+  padding: 10px;
+  padding: 0px 10px 0px 10px;
+}
 
-
-.recipe1 ul{
+.recipe1 ul {
   font-size: 15px;
 font-family: helvetica;
 indent:10px;
 list-style: none;
 }
-.recipe1 ol{
+.recipe1 ol {
   font-size: 15px;
 font-family: helvetica;
 indent:10px;
@@ -20,48 +31,52 @@ list-style: none;
 
 
 
-.recipe2 ul{
+.recipe2 ul {
   font-size: 15px;
 font-family: helvetica;
 indent:10px;
 list-style: none;
 }
-.recipe2 ol{
-  font-size: 15px;
-font-family: helvetica;
-indent:10px;
-list-style: none;}
-
-.recipe3 ul{
+.recipe2 ol {
   font-size: 15px;
 font-family: helvetica;
 indent:10px;
 list-style: none;
 }
-.recipe3 ol{
-  font-size: 15px;
-font-family: helvetica;
-indent:10px;
-list-style: none;}
 
-.recipe4 ul{
+.recipe3 ul {
   font-size: 15px;
-font-family: helvetica;
-indent:10px;
-list-style: none;
+  font-family: helvetica;
+  indent:10px;
+  list-style: none;
 }
-.recipe4 ol{
+.recipe3 ol {
   font-size: 15px;
-font-family: helvetica;
-indent:10px;
-list-style: none;}
+  font-family: helvetica;
+  indent:10px;
+  list-style: none;
+}
 
- img{
+.recipe4 ul {
+  font-size: 15px;
+  font-family: helvetica;
+  indent:10px;
+    list-style: none;
+}
+.recipe4 ol {
+  font-size: 15px;
+  font-family: helvetica;
+  indent:10px;
+  list-style: none;
+}
+
+ img {
 float:left;
 position: absolute;
 }
 
-header li{
-    text-align:center;
+header li {
+  font-family: "Josefin Sans", Sans-serif;
+  text-align:center;
   display: inline;
-line-style:none; }
+}
