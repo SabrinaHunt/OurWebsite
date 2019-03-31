@@ -1,30 +1,44 @@
-ul{padding: 10px;
+body {
+  background:#5c554d;
+}
+
+ul {
+  padding: 10px;
   padding: 0px 10px 0px 10px;
 }
-li{
+li {
       display:inline;
     }
 
-
-h2{
-  font-family: Josefin, sans;
+h1 {
+  color: #ffff;
+  font-family: Josefin Sans, sans-serif;
+  text-align: center;
+}
+h2 {
+  font-family: Roboto, sans;
   text-align: center;
 color:red;
 }
-p{text-align: left;
-font-weight:bolder;}
+p {
+  text-align: left;
+font-weight:bolder;
+}
 
 
-header li{
+header li {
+      font-family: Josefin Sans, Sans-serif;
             text-align:center;
           display: inline;
-        line-style:none; }
-  div{
+        line-style:none;
+      }
+  div {
           height: 170px;
           background-size:cover;
           position:relative;
           margin:40px 0 0 0;
-          border-radius:12px;}
+          border-radius:12px;
+        }
 
 input[type="drink"] {
               background: pink;
@@ -75,7 +89,7 @@ div{
   border-radius:12px;
 }
 .ingredients{
-  background: url("./shotglass1.jpg");
+  background: url("./images/shotglass1.jpg");
   background-size:cover;
    position:relative;
   font-family:helvetica;
@@ -83,7 +97,7 @@ div{
   border-width: thick;
 }
 .taste{
-  background: url("./taste1.jpg");
+  background: url("./images/taste1.jpg");
   background-size:cover;
   position:relative;
   font-family:helvetica;
@@ -92,7 +106,7 @@ div{
 }
 
 .allergy{
-  background: url("./cheers4.png");
+  background: url("./images/cheers4.png");
   background-size:cover;
   position:relative;
   font-family:helvetica;

@@ -1,47 +1,61 @@
-h1{
-font-family: 'Londrina Shadow', cursive;
+h1 {
+font-family: 'Josefin Sans', sans-serif;
 text-align: center;
-margin: 59px 0 0 0;
-color: #aaaaaa;
-font size: 300px;
+margin: 0px 0 0 0;
+color: #ffff;
+font-size: 60px;
 }
-h2{
-  font-family: 'Londrina Shadow', cursive;
+h2 {
+  font-family: 'Josefin Sans', sans-serif;
   text-align: center;
-  color:#aaaaaa;
-  font size:80px;
+  color:#ffff;
+  font-size:38px;
+  margin-top: 260px;
 }
-h3{
-  font-family: 'Londrina Shadow', cursive;
+h3 {
+  font-family: 'Josefin Sans', sans-serif;
   text-align: center;
-  color:#aaaaaa;
+  color:#ffff;
   font size:40px;
-
 }
 
 
 body {
     text-align: center;
-    padding-top: 250px;
+
     color: black;
-    font-family: helvetica;
-    background: url("./cocktail.jpg");
+    font-family: 'roboto';
+    background: url("./images/cocktail.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    font size: 100px;
+    font-size: 20px;
   }
 header{
-    text-align:center;
+
+    text-align: center;
   }
-ul{padding: 10px;
+ul {
+  padding: 10px;
   padding: 0px 10px 0px 10px;
 }
-li{ color:red;
-      display:inline;
-    }
-a{color:white;
+li {
+  color:red;
+  display:inline;
 }
-
+a {
+  color:white;
+  font-size: 20px;
+}
+p {
+  color: #ffff;
+}
+#news {
+  margin-top: 180px;
+}
+#front {
+  color: #ffff;
+  margin-top: 50px;
+}
 
   #social-buttons button {
   color: white
