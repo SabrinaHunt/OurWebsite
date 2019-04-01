@@ -30,6 +30,47 @@ list-style: none;
 }
 
 
+.btn {
+  box-shadow: 1px 1px 0;
+  border-radius: 4px;
+  border: 1px solid;
+  display: center;
+  height: 20px;
+  line-height: 15px;
+  padding: 0 8px;
+  position: relative;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.btn-counter { margin-right: 29px; }
+.btn-counter:after,
+.btn-counter:hover:after { text-shadow: none; }
+.btn-counter:after {
+  border-radius: 5px;
+  border: 1px solid;
+  background-color: white;
+  padding: 0 8px;
+  color: blue;
+  content: attr(data-count);
+  left: 100%;
+  margin-left: 8px;
+  margin-right: -13px;
+  position: absolute;
+  top: -1px;
+}
+
+  { background-color: red;
+  border: 1px solid black;
+  border-right: 0;
+  border-top: 0;
+  position: absolute;
+  right: -13px;
+  top: 5px;
+  height: 6px;
+  width: 6px;
+}
+
 
 .recipe2 ul {
   font-size: 15px;
